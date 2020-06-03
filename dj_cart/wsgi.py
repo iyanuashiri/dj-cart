@@ -1,5 +1,5 @@
 """
-WSGI config for dj_cart project.
+WSGI config for django_cart project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'dj_cart.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_cart.settings')
 
 application = get_wsgi_application()

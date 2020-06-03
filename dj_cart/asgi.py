@@ -1,5 +1,5 @@
 """
-ASGI config for dj_cart project.
+ASGI config for django_cart project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'dj_cart.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_cart.settings')
 
 application = get_asgi_application()
