@@ -18,7 +18,7 @@ pip install dj-cart
 
 After installation is complete:
 
-    add 'cart' to your INSTALLED_APPS directive and
+    add 'cart' to your INSTALLED_APPS 
     
  Run
  
