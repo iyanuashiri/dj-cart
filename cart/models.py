@@ -18,7 +18,7 @@ class Cart(models.Model):
         verbose_name_plural = _('carts')
 
     def __str__(self):
-        return self.created_at
+        return f'{self.user}'
 
     def add_item(self, product, unit_price, quantity=1):
         product_content_type = ContentType.objects.get_for_model(product)
@@ -54,7 +54,7 @@ class Cart(models.Model):
             item_id = str(item.product)
             item_dict = {
                     'product_id': item.product.pk,
-                    'unit_price': item.unit_price,
+                    'price': item.price,
                     'quantity': item.quantity,
                 }
             data.append(item_dict)
