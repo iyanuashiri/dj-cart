@@ -73,5 +73,11 @@ class CartDetail(APIView):
             cart = Cart.objects.create(patient=self.request.user.patient)
         return Response(cart.serializable(), status=status.HTTP_200_OK)
 
+```
 
+
+## Testing
+
+```bash
+pytest
 ```
