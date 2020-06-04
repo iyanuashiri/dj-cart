@@ -35,5 +35,5 @@ setup(
             "Programming Language :: Python :: 3.6",
             "Topic :: Software Development :: Libraries :: Python Modules",
         ],
-        tes_suite="tests.run_tests.run_tests"
+        test_suite="tests.run_tests.run_tests"
      )
