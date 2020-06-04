@@ -1,6 +1,6 @@
 from pytest_factoryboy import register
 
-from .factories import CartFactory, CartItemFactory, UserFactory
+from tests.factories import CartFactory, CartItemFactory, UserFactory
 
 
 register(UserFactory, 'user')

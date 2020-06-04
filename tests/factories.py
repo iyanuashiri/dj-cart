@@ -2,7 +2,7 @@ from django.contrib.auth import get_user_model
 from django.contrib.contenttypes.models import ContentType
 import factory
 
-from .models import CartItem, Cart
+from cart.models import CartItem, Cart
 
 
 class UserFactory(factory.DjangoModelFactory):
