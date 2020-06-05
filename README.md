@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is not a session based cart system. Session based carts are not suitable for REST endpoints because REST is stateless. This implementation stores the contents of the cart in the database.
+This is not a session based cart system. This implementation stores the contents of the cart in the database.
 
 ## Prerequisites
 
